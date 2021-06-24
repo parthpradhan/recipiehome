@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/recipiehome/static/css/main.1a50c393.chunk.css",
+    "main.js": "/recipiehome/static/js/main.3d535519.chunk.js",
+    "main.js.map": "/recipiehome/static/js/main.3d535519.chunk.js.map",
+    "runtime-main.js": "/recipiehome/static/js/runtime-main.9fa4db5a.js",
+    "runtime-main.js.map": "/recipiehome/static/js/runtime-main.9fa4db5a.js.map",
+    "static/css/2.aeaa2a60.chunk.css": "/recipiehome/static/css/2.aeaa2a60.chunk.css",
+    "static/js/2.699edd9d.chunk.js": "/recipiehome/static/js/2.699edd9d.chunk.js",
+    "static/js/2.699edd9d.chunk.js.map": "/recipiehome/static/js/2.699edd9d.chunk.js.map",
+    "index.html": "/recipiehome/index.html",
+    "static/css/2.aeaa2a60.chunk.css.map": "/recipiehome/static/css/2.aeaa2a60.chunk.css.map",
+    "static/css/main.1a50c393.chunk.css.map": "/recipiehome/static/css/main.1a50c393.chunk.css.map",
+    "static/js/2.699edd9d.chunk.js.LICENSE.txt": "/recipiehome/static/js/2.699edd9d.chunk.js.LICENSE.txt",
+    "static/media/clouds.png": "/recipiehome/static/media/clouds.3c700c13.png",
+    "static/media/paper-kit.scss?v=1.3.0": "/recipiehome/static/media/nucleo-icons.ec16bc4c.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fa4db5a.js",
+    "static/css/2.aeaa2a60.chunk.css",
+    "static/js/2.699edd9d.chunk.js",
+    "static/css/main.1a50c393.chunk.css",
+    "static/js/main.3d535519.chunk.js"
+  ]
+}
