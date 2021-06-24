@@ -135,7 +135,7 @@ function IndexNavbar() {
               <Button
                 className="btn-round"
                 color="danger"
-                href="/search"
+                href="https://parthpradhan.github.io/Recipie/"
                 target="_blank"
               >
                 <i className="fa fa-search"></i> Search
