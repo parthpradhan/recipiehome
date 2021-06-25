@@ -122,7 +122,7 @@ function IndexNavbar() {
             </NavItem>
             <NavItem>
               <NavLink
-                href="/casestudy"
+                href="recipiehome/casestudy"
                 rel="noopener noreferrer"
               >
                 <i className="nc-icon nc-book-bookmark" /> Case Study

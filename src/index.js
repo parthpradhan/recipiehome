@@ -13,12 +13,12 @@ import StudyPage from "views/examples/StudyPage.js";
 ReactDOM.render(
   <BrowserRouter>
   <Switch>
-    <Route path="/home" render={(props) => <LandingPage/>} />
+    <Route path="recipiehome/home" render={(props) => <LandingPage/>} />
     <Route
-      path="/casestudy"
+      path="recipiehome/casestudy"
       render={(props) => <StudyPage/>}
     />
-    <Redirect to="/home" />
+    <Redirect to="recipiehome/home" />
   </Switch>
 </BrowserRouter>,
   document.getElementById("root")
