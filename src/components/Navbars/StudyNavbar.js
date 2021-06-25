@@ -47,7 +47,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="recipiehome/home"
+            href="/"
             rel="noopener noreferrer"
             title="Parth Pradhan"
           >
