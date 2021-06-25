@@ -1,25 +1,30 @@
 {
   "files": {
     "main.css": "/recipiehome/static/css/main.1a50c393.chunk.css",
-    "main.js": "/recipiehome/static/js/main.6d82aa91.chunk.js",
-    "main.js.map": "/recipiehome/static/js/main.6d82aa91.chunk.js.map",
+    "main.js": "/recipiehome/static/js/main.1c3250e8.chunk.js",
+    "main.js.map": "/recipiehome/static/js/main.1c3250e8.chunk.js.map",
     "runtime-main.js": "/recipiehome/static/js/runtime-main.9fa4db5a.js",
     "runtime-main.js.map": "/recipiehome/static/js/runtime-main.9fa4db5a.js.map",
     "static/css/2.aeaa2a60.chunk.css": "/recipiehome/static/css/2.aeaa2a60.chunk.css",
-    "static/js/2.699edd9d.chunk.js": "/recipiehome/static/js/2.699edd9d.chunk.js",
-    "static/js/2.699edd9d.chunk.js.map": "/recipiehome/static/js/2.699edd9d.chunk.js.map",
+    "static/js/2.275fb9cb.chunk.js": "/recipiehome/static/js/2.275fb9cb.chunk.js",
+    "static/js/2.275fb9cb.chunk.js.map": "/recipiehome/static/js/2.275fb9cb.chunk.js.map",
     "index.html": "/recipiehome/index.html",
     "static/css/2.aeaa2a60.chunk.css.map": "/recipiehome/static/css/2.aeaa2a60.chunk.css.map",
     "static/css/main.1a50c393.chunk.css.map": "/recipiehome/static/css/main.1a50c393.chunk.css.map",
-    "static/js/2.699edd9d.chunk.js.LICENSE.txt": "/recipiehome/static/js/2.699edd9d.chunk.js.LICENSE.txt",
+    "static/js/2.275fb9cb.chunk.js.LICENSE.txt": "/recipiehome/static/js/2.275fb9cb.chunk.js.LICENSE.txt",
     "static/media/clouds.png": "/recipiehome/static/media/clouds.3c700c13.png",
-    "static/media/paper-kit.scss?v=1.3.0": "/recipiehome/static/media/nucleo-icons.ec16bc4c.woff2"
+    "static/media/cr8.27c7dbe3.jpg": "/recipiehome/static/media/cr8.27c7dbe3.jpg",
+    "static/media/mockups.a3f5e0a3.png": "/recipiehome/static/media/mockups.a3f5e0a3.png",
+    "static/media/paper-kit.scss?v=1.3.0": "/recipiehome/static/media/nucleo-icons.ec16bc4c.woff2",
+    "static/media/pw1.96f3278e.jpg": "/recipiehome/static/media/pw1.96f3278e.jpg",
+    "static/media/pw2.836e83d3.jpg": "/recipiehome/static/media/pw2.836e83d3.jpg",
+    "static/media/wireframe.18e5ab47.png": "/recipiehome/static/media/wireframe.18e5ab47.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9fa4db5a.js",
     "static/css/2.aeaa2a60.chunk.css",
-    "static/js/2.699edd9d.chunk.js",
+    "static/js/2.275fb9cb.chunk.js",
     "static/css/main.1a50c393.chunk.css",
-    "static/js/main.6d82aa91.chunk.js"
+    "static/js/main.1c3250e8.chunk.js"
   ]
 }
