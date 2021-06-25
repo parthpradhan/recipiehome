@@ -47,7 +47,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/"
+            href="/home"
             rel="noopener noreferrer"
             title="Parth Pradhan"
           >
@@ -118,6 +118,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 href="https://aboutmain.gatsbyjs.io/"
+                target="_blank"
               >
               About
               </NavLink>

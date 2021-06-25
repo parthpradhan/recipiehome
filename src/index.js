@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 // styles
 import "bootstrap/scss/bootstrap.scss";
 import "assets/scss/paper-kit.scss?v=1.3.0";
@@ -11,14 +11,14 @@ import StudyPage from "views/examples/StudyPage.js";
 // others
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router>
   <Switch>
-    <Route path="/" render={(props) => <LandingPage/>} />
+    <Route path="/home" render={(props) => <LandingPage/>} />
     <Route
       path="/casestudy"
       render={(props) => <StudyPage/>}
     />
   </Switch>
-</BrowserRouter>,
+</Router>,
   document.getElementById("root")
 );
