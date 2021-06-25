@@ -100,7 +100,7 @@ function LandingPage() {
             </Row>
             <Row className="mt-3">
             <Col className="ml-auto mr-auto" md="4">
-              <Button href="https://parthpradhan.github.io/Recipie/" className="btn-fill" color="danger" size="lg">
+              <Button rel="noopener noreferrer" target="_blank" href="https://parthpradhan.github.io/Recipie/" className="btn-fill" color="danger" size="lg">
                   Let's Begin
               </Button>
             </Col>

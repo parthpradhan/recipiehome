@@ -46,6 +46,9 @@ function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand
+            data-placement="bottom"
+            href="/home"
+            rel="noopener noreferrer"
             title="Parth Pradhan"
           >
           Recipie React
@@ -94,7 +97,7 @@ function IndexNavbar() {
               <NavLink
                 data-placement="bottom"
                 href="https://www.instagram.com/thesoulfrost/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 title="Follow us on Instagram"
               >
                 <i className="fa fa-instagram" />
@@ -121,9 +124,8 @@ function IndexNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="/casestudy"
-                rel="noopener noreferrer"
+              <NavLink active
+                href="#"
               >
                 <i className="nc-icon nc-book-bookmark" /> Case Study
               </NavLink>
@@ -131,7 +133,7 @@ function IndexNavbar() {
             <NavItem>
               <Button
                 className="btn-round"
-                color="danger" 
+                color="danger"
                 href="https://parthpradhan.github.io/Recipie/"
                 rel="noopener noreferrer"
               >
