@@ -8,9 +8,9 @@ import {
   NavItem,
   NavLink,
   Nav,
-  Container,
+  Container
 } from "reactstrap";
-
+import { Link } from "react-router-dom";
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
@@ -45,14 +45,15 @@ function IndexNavbar() {
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
         <div className="navbar-translate">
+        <Link to="/">
           <NavbarBrand
             data-placement="bottom"
-            href="/home"
             rel="noopener noreferrer"
             title="Parth Pradhan"
           >
           Recipie React
           </NavbarBrand>
+          </Link>
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {

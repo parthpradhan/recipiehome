@@ -2,7 +2,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Container,Button } from "reactstrap";
 
 // core components
 
@@ -26,6 +26,9 @@ function ProblemSec() {
             The challenge is to create a tool that will streamline the search process and at the same time provide users with enough details about the searched recipes.
            </p>
             <br/>
+            <p className="presentation-subtitle">
+             <strong>Prompt provided by :</strong>  <Button color="danger"  href="https://sharpen.design/">Sharpen</Button>
+            </p>
           </Container>
         </div>
       </div>

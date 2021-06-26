@@ -8,14 +8,14 @@ import "assets/demo/demo.css?v=1.3.0";
 // pages
 import LandingPage from "views/examples/LandingPage.js";
 import StudyPage from "views/examples/StudyPage.js";
-// others
+// othersRouter
 
 ReactDOM.render(
   <Router>
   <Switch>
-    <Route path="/home" render={(props) => <LandingPage/>} />
+    <Route exact path="/" render={(props) => <LandingPage/>} />
     <Route
-      path="/casestudy"
+      exact path="/casestudy"
       render={(props) => <StudyPage/>}
     />
   </Switch>

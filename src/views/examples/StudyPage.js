@@ -10,6 +10,8 @@ import Footer from "components/Footers/Footer.js";
 //add competitive section later
 //add survey section
 import IdeationProcess from "components/Sections/ideation";
+import ProductSec from "components/Sections/productSec";
+import FinalSec from "components/Sections/final";
 function StudyPage() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
@@ -26,6 +28,8 @@ function StudyPage() {
       <DesignProcess />
       <ProblemSec/>
       <IdeationProcess/>
+      <ProductSec/>
+      <FinalSec/>
       <Footer />
     </>
   );

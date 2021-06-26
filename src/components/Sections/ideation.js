@@ -8,6 +8,7 @@ import pw1 from '../../assets/img/pw1.jpg';
 import pw2 from '../../assets/img/pw2.jpg';
 import wireframe from '../../assets/img/wireframe.png';
 import mockups from '../../assets/img/mockups.png';
+import ia from '../../assets/img/sitemap.png';
 // core components
 
 function IdeationProcess() {
@@ -17,7 +18,7 @@ function IdeationProcess() {
         className="page-header section"
        >
         <div>
-          <Container className="content-center">
+          <Container>
             <h1 className="title" style={{
            color:'black'
           }}>
@@ -30,7 +31,7 @@ function IdeationProcess() {
               <img src={pic} alt="crazyeight" width="100%" height="100%" />
               </Col>
               <Col md="6">
-              <p>“Crazy 8’s is a core Design Sprint method. It is a fast sketching exercise that challenges people to sketch eight distinct ideas in eight minutes. The goal is to push beyond your first idea, frequently the least innovative, and to generate a wide variety of solutions to your challenge.”</p>
+              <p style={{color:"grey"}}>“Crazy 8’s is a core Design Sprint method. It is a fast sketching exercise that challenges people to sketch eight distinct ideas in eight minutes. The goal is to push beyond your first idea, frequently the least innovative, and to generate a wide variety of solutions to your challenge.”</p>
               <br/>
               <br/>
               <p>
@@ -49,7 +50,16 @@ function IdeationProcess() {
               </Button>
               </Col>
             </Row>
+          </Container>
+        </div>
+      </div>
+      <div
+        className="page-header section"
+       >
+        <div>
+          <Container>
             <h2>Paper Wireframes</h2>
+            <h4 style={{color:"grey"}}>It is a sketch or drawing that represents the skeleton of a website or an app interface.It it is often done on a sheet of paper or a whiteboard using a pencil or a pen for rapid simulation and testing</h4>
             <br/><br/>
             <Row>
               <Col md="6">
@@ -60,8 +70,30 @@ function IdeationProcess() {
               </Col>
             </Row>
           </Container>
+          </div>
+          </div>
+ 
+      <div
+        className="page-header section mt-4"
+       >
+        <div>
+          <Container>
+            <h1 className="title" style={{
+           color:'black'
+          }}>
+            Information Architecture
+            </h1>
+            <p style={{color:"grey"}}>Once I had created a rough concept of the features and how they would be organized, I translated these ideas from sticky notes into mid-fidelity information architecture trees. This helped me understand which screen states and modals I needed to design</p>
+            <br/><br/>
+            <Row>
+              <Col>
+              <img src={ia} alt="information" width="100%" height="100%" />
+              </Col>
+            
+            </Row>
+          </Container>
         </div>
-      </div>
+        </div>
       <div
         className="page-header section"
        >
@@ -73,6 +105,7 @@ function IdeationProcess() {
             Digital Wireframes
             </h1>
             <h2>Low Fidelity Prototypes</h2>
+            <h4 style={{color:"grey"}}>This process allows all stakeholders to agree on where the information will be placed before the developers build the interface out with code</h4>
             <br/><br/>
             <Row>
               <Col>
@@ -94,6 +127,7 @@ function IdeationProcess() {
             Mockups
             </h1>
             <h2>High Fidelity Prototypes</h2>
+            <h4 style={{color:"grey"}}>It is a rough draft of a finished product or visually rendered representation of a finished product</h4>
             <br/><br/>
             <Row>
               <Col>

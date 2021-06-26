@@ -10,7 +10,7 @@ import {
   Nav,
   Container,
 } from "reactstrap";
-
+import { Link } from "react-router-dom";
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
@@ -117,16 +117,19 @@ function IndexNavbar() {
                 href="https://aboutmain.gatsbyjs.io/"
                 target="_blank"
               >
+                <i class="fa fa-coffee"/>
               About
               </NavLink>
             </NavItem>
             <NavItem>
+              
               <NavLink
-                href="/casestudy"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer" 
               >
-                <i className="nc-icon nc-book-bookmark" /> Case Study
+                <Link to="/casestudy" style={{color:'#a49e93',fontWeight:'bold'}}><i class="fa fa-book" /> Case Study</Link>
+                
               </NavLink>
+             
             </NavItem>
             <NavItem>
               <Button
