@@ -10,7 +10,7 @@ function FinalSec() {
   return (
     <>
       <div
-        className="page-header section">
+        className="content-center">
         <div>
           <Container>
             <h1 className="title" style={{color:'black'}}>
